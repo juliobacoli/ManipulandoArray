@@ -1,0 +1,42 @@
+﻿/ManipulandoArray.sln
+# Visual Studio Code
+.vscode/
+
+# Arquivos binários gerados pelo Visual Studio
+*.suo
+*.user
+*.sln.docstates
+
+# Pasta de saída binária
+bin/
+obj/
+
+# Arquivos de log e cache
+*.log
+logs/
+*.cache
+*.bin
+*.xml
+*.vsidx
+*.v2
+
+# Diretórios e arquivos gerados pelo .NET CLI
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Dependências do NuGet
+packages/
+
+# Diretório de publicação
+Publish/
+
+# Diretórios de ferramentas do .NET CLI
+.localhistory/
+.vscode/
+.vs2017/
+.vs2019/
+
+# .NET Core
+project.pbxproj
+project.user
