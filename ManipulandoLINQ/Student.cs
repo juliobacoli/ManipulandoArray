@@ -8,6 +8,7 @@ public class Student
     public string? Nome { get; set; }
     public string? Matricula { get; set; }
     public int Notas { get; set; }
+    public List<string> Telefone { get; set; }
 
     public Student(int id, string nome, string matricula, int notas)
     {
@@ -15,5 +16,6 @@ public class Student
         Nome = nome;
         Matricula = matricula;
         Notas = notas;
+        Telefone = new List<string> { "3781-8099", "982453949", "123456789" };
     }
 }
